@@ -1,4 +1,4 @@
-## On-time Camera Input Support
+## Real-time Camera Input Support
 
 Using opencv CascadeClassifier as face detection method.
 
