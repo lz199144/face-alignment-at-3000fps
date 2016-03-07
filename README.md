@@ -5,7 +5,7 @@ Using opencv CascadeClassifier as face detection method.
 ## Run
 
 `$ ./FaceAlignment camera num`
-Num is you camera name(origin is 0).
+Num is your camera name(origin is 0).
 
 ## By `Jason LZ`
 
