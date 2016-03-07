@@ -1,10 +1,11 @@
 ## Real-time Camera Input Support
 
-Using opencv CascadeClassifier as face detection method.
+Use opencv CascadeClassifier as face detection method.
 
 ## Run
 
 `$ ./FaceAlignment camera num`
+
 Num is your camera name(origin is 0).
 
 ## By `Jason LZ`
