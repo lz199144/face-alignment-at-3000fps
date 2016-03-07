@@ -9,10 +9,11 @@ int train(int);
 int test(void);
 int prepare(void);
 int run(void);
+int runCamera(int arg);
 
 
 int main(int argc, char **argv) {
-    if (argc != 2) {
+    if (argc < 2) {
         LOG("We need an argument");
         return 0;
     }
@@ -33,6 +34,9 @@ int main(int argc, char **argv) {
     }
     if (strcmp(argv[1], "run") == 0) {
         return run();
+    }
+    if (strcmp(argv[1], "camera") == 0){
+        runCamera(atoi(argv[2]));
     }
     else {
         LOG("Wrong Arguments.");

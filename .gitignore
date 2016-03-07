@@ -1,8 +1,1 @@
 build/
-data/
-model/
-
-*.jpg
-*.pts
-*.txt
-*.model

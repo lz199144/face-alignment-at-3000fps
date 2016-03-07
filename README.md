@@ -1,4 +1,18 @@
-face-alignment-at-3000fps
+## On-time Camera Input Support
+
+Using opencv CascadeClassifier as face detection method.
+
+## Run
+
+`$ ./FaceAlignment camera num`
+Num is you camera name(origin is 0).
+
+## By `Jason LZ`
+
+=========================
+
+
+face-alignment-at-3000fps(Original)
 =========================
 
 C++ implementation of Face Alignment at 3000 FPS via Regressing Local Binary Features.
